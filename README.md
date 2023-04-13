@@ -18,9 +18,14 @@ python3 -m pip install --user pipenv
 pipenv install
 ```
 
+* Activate environment 
+```
+pipenv shell
+```
+
 * Run app
 ```
-pipenv run python3 -m flask --app app run --debug
+python -m flask --app app run --debug
 ```
 
 Open `index.html` to see the charts
